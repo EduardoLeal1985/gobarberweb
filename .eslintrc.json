@@ -27,6 +27,7 @@
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-one-expression-per-line": "off",
+    "@typescript-eslint/camelcase": "off",
     "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off",
     "react-hooks/rules-of-hooks": "error",
@@ -40,6 +41,7 @@
         "allowExpressions": true
       }
     ],
+    "camelcase": "off",
     "@typescript-eslint/ban-types": "off",
     "import/extensions": [
       "error",
